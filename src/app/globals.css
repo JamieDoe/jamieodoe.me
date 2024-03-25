@@ -18,10 +18,21 @@
 
 body {
   color: rgb(var(--foreground-rgb));
+  background-color: aquamarine;
+  margin-inline: 24px;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.page_grid {
+  max-width: 1560px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1.5fr 5fr 75px;
+  grid-template-rows: 1fr;
+  grid-column-gap: 24px;
 }
