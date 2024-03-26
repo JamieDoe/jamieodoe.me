@@ -8,6 +8,9 @@ const nextConfig = {
       {
         hostname: "rfs.org.uk",
       },
+      {
+        hostname: "st4.depositphotos.com",
+      },
     ],
   },
 };
