@@ -10,7 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="my-16">
+      <body className="my-6 bg-background">
         <div className="page_grid">
           <ProfileBar />
           {children}

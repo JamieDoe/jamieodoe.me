@@ -34,18 +34,5 @@ export const profileData = {
       linkToCourse:
         "https://www.port.ac.uk/study/courses/undergraduate/bsc-hons-software-engineering",
     },
-    {
-      institution: "Fareham College",
-      courseName: "L3 Games Development",
-      grade: "Distinction, Merit, Merit",
-      linkToCourse:
-        "https://www.fareham.ac.uk/courses/level-3-extended-diploma-in-games-development",
-    },
-    {
-      institution: "Kings School, Winchester",
-      courseName: "GCSEs",
-      grade: null,
-      linkToCourse: null,
-    },
   ],
 };
