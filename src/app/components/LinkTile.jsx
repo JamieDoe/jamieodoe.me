@@ -1,17 +1,14 @@
 import Link from "next/link";
 
-import { linkData } from "../site-data/linkData.json";
-
-export default function LinkTile() {
+export default function LinkTile({ href, icon, target, resume }) {
   return (
-    <>
-      {linkData.map(({ link, icon }) => {
-        return (
-          <Link href={link} target="_blank" key={link}>
-            {icon}
-          </Link>
-        );
-      })}
-    </>
+    <Link
+      className="w-[40px] h-[40px]"
+      href={href}
+      target={target}
+      download={resume ? href : null}
+    >
+      {icon}
+    </Link>
   );
 }

@@ -32,7 +32,21 @@ body {
   max-width: 1560px;
   margin: auto;
   display: grid;
-  grid-template-columns: 1.5fr 5fr 75px;
+  grid-template-columns: 1.5fr 5fr 40px;
   grid-template-rows: 1fr;
-  grid-column-gap: 24px;
+  grid-column-gap: 16px;
+}
+
+.link_grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-row-gap: 200px;
+}
+
+.portfolio_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 12px;
 }
