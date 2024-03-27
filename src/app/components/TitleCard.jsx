@@ -10,7 +10,7 @@ export default function TitleCard() {
       </h2>
       <span className="flex gap-4 text-xl font-bold">
         <p>My time: </p>
-        <Clock format={"HH:mm"} ticking={true} timezone={"UK"} />
+        <Clock format={"HH:mm"} ticking={true} />
       </span>
     </div>
   );

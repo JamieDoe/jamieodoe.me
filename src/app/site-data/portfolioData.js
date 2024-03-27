@@ -2,8 +2,9 @@ export const portfolioData = [
   {
     title: "Web Design by Doe",
     link: "https://webdesignbydoe.co.uk",
+    isMockup: true,
     image: {
-      url: "https://st4.depositphotos.com/1000128/21747/i/450/depositphotos_217479340-stock-photo-creative-abstract-php-web-design.jpg",
+      url: "https://res.cloudinary.com/dzcr4nekk/image/upload/f_auto,q_auto/qffazxhnofefhsml1rvg",
       alt: "",
     },
     description:
@@ -12,8 +13,9 @@ export const portfolioData = [
   {
     title: "Garytroia.com",
     link: "https://garytroia.com",
+    isMockup: true,
     image: {
-      url: "https://st4.depositphotos.com/1000128/21747/i/450/depositphotos_217479340-stock-photo-creative-abstract-php-web-design.jpg",
+      url: "https://res.cloudinary.com/dzcr4nekk/image/upload/f_auto,q_auto/wiejhdobaogmd9msam9o",
       alt: "",
     },
     description:
@@ -32,8 +34,9 @@ export const portfolioData = [
   {
     title: "Appwrite Task Manager",
     link: "https://appwritetaskmanager.vercel.app/",
+    isMockup: true,
     image: {
-      url: "https://st4.depositphotos.com/1000128/21747/i/450/depositphotos_217479340-stock-photo-creative-abstract-php-web-design.jpg",
+      url: "https://res.cloudinary.com/dzcr4nekk/image/upload/f_auto,q_auto/wz3jievylijesi5duebt",
       alt: "",
     },
     description:

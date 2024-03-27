@@ -5,17 +5,19 @@ export default function PortfolioCard({ portfolios }) {
   return (
     <div className="flex flex-col gap-2 ">
       <div className=" portfolio_grid rounded-2xl overflow-hidden ">
-        {portfolios.map(({ title, link, image, description }) => {
+        {portfolios.map(({ title, link, isMockup, image, description }) => {
           return (
             <Link
               href={link}
-              className="bg-secondary rounded-md overflow-hidden portfolio_card_grid "
+              className="bg-secondary rounded-md overflow-hidden pr-4 portfolio_card_grid "
               target="_blank"
               key={link}
             >
-              <div className="bg-black w-full">
+              <div className="w-full rounded-md overflow-hidden">
                 <Image
-                  className="w-full h-full object-cover opacity-40"
+                  className={`w-full h-full ${
+                    isMockup ? "object-contain px-2" : "object-cover"
+                  }`}
                   width={1000}
                   height={200}
                   src={image.url}
