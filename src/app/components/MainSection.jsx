@@ -13,8 +13,11 @@ export default function MainSection() {
     <section className="px-14 flex flex-col gap-[12px]">
       <TitleCard />
       <PortfolioCard portfolios={portfolioData} />
-      <div className="flex gap-4">
-        <StatisticsCard statistics={statisticsData} />
+      <div className="main_grid">
+        <div className="main_grid_left">
+          <StatisticsCard statistics={statisticsData} />
+          <OtherProjectsCard />
+        </div>
         <AboutMeCard about={aboutMeData} skills={profileData.topSkills} />
       </div>
     </section>
