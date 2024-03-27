@@ -16,10 +16,10 @@ module.exports = {
         subtle: "30%",
       },
       colors: {
-        background: "#070F2B",
-        secondary: "#1B1A55",
+        background: "#090919",
+        secondary: "#0F172A",
         accent: "#535C91",
-        headers: "#9290C3",
+        headers: "#2f2b3a",
         text: "#FFFFFF",
       },
     },

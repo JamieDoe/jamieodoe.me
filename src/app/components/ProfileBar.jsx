@@ -10,13 +10,10 @@ import Divider from "./Divider";
 export default function ProfileBar() {
   return (
     <>
-      <section className="flex flex-col gap-1">
+      <section className="flex flex-col gap-3">
         <ProfileCard profileData={profileData} />
-        <Divider />
         <TopSkillsCard skills={profileData.topSkills} />
-        <Divider />
         <ExperienceCard experiences={profileData.experience} />
-        <Divider />
         <EducationCard education={profileData.education} />
       </section>
     </>
