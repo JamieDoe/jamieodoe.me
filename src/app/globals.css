@@ -20,6 +20,10 @@ body {
   color: rgb(var(--foreground-rgb));
   background-color: aquamarine;
   margin-inline: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 @layer utilities {
@@ -30,18 +34,10 @@ body {
 
 .page_grid {
   max-width: 1560px;
-  margin: auto;
   display: grid;
-  grid-template-columns: 1.5fr 5fr 40px;
+  grid-template-columns: 1.5fr 5fr 60px;
   grid-template-rows: 1fr;
   grid-column-gap: 16px;
-}
-
-.link_grid {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-row-gap: 200px;
 }
 
 .portfolio_grid {
@@ -49,4 +45,10 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: 12px;
+}
+
+.portfolio_card_grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
 }

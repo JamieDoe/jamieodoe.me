@@ -7,36 +7,36 @@ export const portfolioData = [
       alt: "",
     },
     description:
-      "Web Design by Doe is my personal company that specialises in high quality, bespoke websites for a budget price. I built the website using React 18, NextJs 13 (App router), HygraphCMS and Resend.",
+      "Web Design by Doe is my personal company that specialises in high quality, bespoke websites for a budget price. Built using React, NextJs, Hygraph & Resend",
   },
   {
-    title: "Web Design by Doe",
+    title: "Garytroia.com",
+    link: "https://garytroia.com",
+    image: {
+      url: "https://st4.depositphotos.com/1000128/21747/i/450/depositphotos_217479340-stock-photo-creative-abstract-php-web-design.jpg",
+      alt: "",
+    },
+    description:
+      "Gary Troia is a Hampshire based, best selling author. They required a website rebuild. Built using AstroJs, React and Resend",
+  },
+  {
+    title: "Dissertation",
     link: "https://webdesignbydoe.co.uk",
     image: {
       url: "https://st4.depositphotos.com/1000128/21747/i/450/depositphotos_217479340-stock-photo-creative-abstract-php-web-design.jpg",
       alt: "",
     },
     description:
-      "Web Design by Doe is my personal company that specialises in high quality, bespoke websites for a budget price. I built the website using React 18, NextJs 13 (App router), HygraphCMS and Resend.",
+      "My dissertation explores how methodologies effect a solo developer, and concluded that 'Lean Development' was most optimal.",
   },
   {
-    title: "Web Design by Doe",
-    link: "https://webdesignbydoe.co.uk",
+    title: "Appwrite Task Manager",
+    link: "https://appwritetaskmanager.vercel.app/",
     image: {
       url: "https://st4.depositphotos.com/1000128/21747/i/450/depositphotos_217479340-stock-photo-creative-abstract-php-web-design.jpg",
       alt: "",
     },
     description:
-      "Web Design by Doe is my personal company that specialises in high quality, bespoke websites for a budget price. I built the website using React 18, NextJs 13 (App router), HygraphCMS and Resend.",
-  },
-  {
-    title: "Web Design by Doe",
-    link: "https://webdesignbydoe.co.uk",
-    image: {
-      url: "https://st4.depositphotos.com/1000128/21747/i/450/depositphotos_217479340-stock-photo-creative-abstract-php-web-design.jpg",
-      alt: "",
-    },
-    description:
-      "Web Design by Doe is my personal company that specialises in high quality, bespoke websites for a budget price. I built the website using React 18, NextJs 13 (App router), HygraphCMS and Resend.",
+      "I built a Task manager using React and Appwrite (for authentication and database) to test the features provided by Appwrite.",
   },
 ];

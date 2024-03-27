@@ -3,7 +3,7 @@ import { FaArrowRightFromBracket } from "react-icons/fa6";
 
 export default function EducationCard({ education }) {
   return (
-    <div className="rounded-t-lg rounded-b-2xl overflow-hidden  p-4 flex flex-col gap-2">
+    <div className="rounded-t-lg rounded-b-2xl overflow-hidden bg-secondary p-4 flex flex-col gap-2 ">
       <h2 className="text-3xl font-bold">Education</h2>
       <div className="flex flex-col gap-2">
         {education.map(({ institution, courseName, grade, linkToCourse }) => {

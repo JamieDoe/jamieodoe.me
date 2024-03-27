@@ -4,7 +4,7 @@ import { linkData } from "../site-data/linkData.json";
 
 export default function LinkBar() {
   return (
-    <div className="rounded-xl overflow-hidden py-10 link_grid">
+    <div className="rounded-xl overflow-hidden py-10 flex flex-col justify-between">
       <div className="flex flex-col">
         {linkData.topLinks.map(({ link, icon, target, resume }) => (
           <LinkTile
