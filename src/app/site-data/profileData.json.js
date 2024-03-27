@@ -11,7 +11,88 @@ export const profileData = {
   name: "Jamie Doe",
   position: "Frontend React/Javascript Developer",
   location: "Hampshire, United Kingdom",
-  topSkills: ["ReactJS", "NextJS", "Javascript", "TailwindCSS", "GraphQL"],
+  topSkills: [
+    {
+      label: "ReactJS",
+      color: "bg-[#570007]",
+      border: "border-[#80000c]",
+    },
+    {
+      label: "NextJs",
+      color: "bg-[#570007]",
+      border: "border-[#80000c]",
+    },
+    {
+      label: "AstroJs",
+      color: "bg-[#570007]",
+      border: "border-[#80000c]",
+    },
+    {
+      label: "Javascript",
+      color: "bg-[#570007]",
+      border: "border-[#80000c]",
+    },
+    {
+      label: "Functional Programming",
+      color: "bg-[#570007]",
+      border: "border-[#80000c]",
+    },
+    {
+      label: "TailwindCSS",
+      color: "bg-[#570007]",
+      border: "border-[#80000c]",
+    },
+    {
+      label: "GraphQL",
+      color: "bg-[#570007]",
+      border: "border-[#80000c]",
+    },
+    {
+      label: "PostgreSQL",
+      color: "bg-[#570007]",
+      border: "border-[#80000c]",
+    },
+    {
+      label: "Git",
+      color: "bg-[#570007]",
+      border: "border-[#80000c]",
+    },
+    {
+      label: "GitHub",
+      color: "bg-[#570007]",
+      border: "border-[#80000c]",
+    },
+    {
+      label: "Frontend Development",
+      color: "bg-[#570007]",
+      border: "border-[#80000c]",
+    },
+    {
+      label: "CMSs",
+      color: "bg-[#570007]",
+      border: "border-[#80000c]",
+    },
+    {
+      label: "UI/UX Design",
+      color: "bg-[#570007]",
+      border: "border-[#80000c]",
+    },
+    {
+      label: "Teamwork",
+      color: "bg-[#570007]",
+      border: "border-[#80000c]",
+    },
+    {
+      label: "SaaS Development",
+      color: "bg-[#570007]",
+      border: "border-[#80000c]",
+    },
+    {
+      label: "Project Planning",
+      color: "bg-[#570007]",
+      border: "border-[#80000c]",
+    },
+  ],
   experience: [
     {
       company: "Alliants",

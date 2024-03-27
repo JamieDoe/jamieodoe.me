@@ -11,6 +11,9 @@ const nextConfig = {
       {
         hostname: "st4.depositphotos.com",
       },
+      {
+        hostname: "res.cloudinary.com",
+      },
     ],
   },
 };

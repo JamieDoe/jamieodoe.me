@@ -12,7 +12,7 @@ export default function ProfileBar() {
     <>
       <section className="flex flex-col gap-3">
         <ProfileCard profileData={profileData} />
-        <TopSkillsCard skills={profileData.topSkills} />
+        <TopSkillsCard skills={profileData.topSkills.slice(0, 6)} />
         <ExperienceCard experiences={profileData.experience} />
         <EducationCard education={profileData.education} />
       </section>
