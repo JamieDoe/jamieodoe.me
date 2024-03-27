@@ -8,29 +8,31 @@ ChartJS.register(ArcElement, Tooltip, Legend);
 
 export default function StatisticsCard({ statistics }) {
   return (
-    <div className="rounded-2xl overflow-hidden bg-secondary p-4 flex flex-col gap-4 min-w-fit max-h-[230px]">
-      <h2 className="text-xl font-semibold">Most used languages</h2>
-      <div className="flex gap-4 items-center px-6">
-        <PieChart
-          height={150}
-          width={150}
-          data={statistics}
-          className="cursor-pointer border"
-        />
-        <div>
-          <ul className="flex flex-col gap-2">
-            {statistics.map(({ name, value, labelStyle }) => {
-              return (
-                <li
-                  key={name}
-                  className="flex items-center gap-2 font-semibold"
-                >
-                  <span className={`h-2 w-2 ${labelStyle}`}></span>
-                  {name} <span className="font-light">- {value} %</span>
-                </li>
-              );
-            })}
-          </ul>
+    <div className="rounded-2xl overflow-hidden bg-secondary p-4 flex flex-col gap-4 min-w-fit">
+      <h2 className="text-3xl font-semibold">Most used languages</h2>
+      <div className="flex justify-center items-center h-full">
+        <div className="flex gap-4 items-center px-6">
+          <PieChart
+            height={150}
+            width={150}
+            data={statistics}
+            className="cursor-pointer border"
+          />
+          <div>
+            <ul className="flex flex-col gap-2">
+              {statistics.map(({ name, value, labelStyle }) => {
+                return (
+                  <li
+                    key={name}
+                    className="flex items-center gap-2 font-semibold"
+                  >
+                    <span className={`h-2 w-2 ${labelStyle}`}></span>
+                    {name} <span className="font-light">- {value} %</span>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
         </div>
       </div>
     </div>

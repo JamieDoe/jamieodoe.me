@@ -10,8 +10,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className=" bg-background">
-        <div className="page_grid">
+      <body className=" bg-background py-4">
+        <div className="page_grid ">
           <ProfileBar />
           {children}
           <LinkBar />
