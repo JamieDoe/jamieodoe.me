@@ -17,7 +17,7 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: #fff;
   background-color: aquamarine;
   margin-inline: 24px;
   display: flex;

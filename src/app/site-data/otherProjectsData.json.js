@@ -9,7 +9,7 @@ export const otherProjectsData = [
     },
   },
   {
-    label: "ChatGPT Bot Demo",
+    label: "ChatGPT Bot",
     description: "ChatGPT chat bot used to text OpenAi api",
     href: "",
     image: {
