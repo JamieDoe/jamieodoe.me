@@ -6,8 +6,7 @@ import {
   FaPhoneSquareAlt,
 } from "react-icons/fa";
 import { FaSquareEnvelope } from "react-icons/fa6";
-import { IoDocumentTextOutline } from "react-icons/io5";
-import { RiFolderDownloadFill } from "react-icons/ri";
+import { RiFileDownloadFill } from "react-icons/ri";
 
 export const linkData = {
   topLinks: [
@@ -15,7 +14,7 @@ export const linkData = {
       resume: true,
       link: "/jamie-doe-resume.pdf",
       target: "_blank",
-      icon: <RiFolderDownloadFill className="w-full h-full" />,
+      icon: <RiFileDownloadFill className="w-full h-full" />,
     },
     {
       link: "https://github.com/JamieDoe",

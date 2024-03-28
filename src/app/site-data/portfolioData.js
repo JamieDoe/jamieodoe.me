@@ -5,7 +5,7 @@ export const portfolioData = [
     isMockup: true,
     image: {
       url: "https://res.cloudinary.com/dzcr4nekk/image/upload/f_auto,q_auto/qffazxhnofefhsml1rvg",
-      alt: "",
+      alt: "Mockup of web design by doe",
     },
     description:
       "Web Design by Doe is my personal company that specialises in high quality, bespoke websites for a budget price. Built using React, NextJs, Hygraph & Resend",
@@ -29,7 +29,7 @@ export const portfolioData = [
       alt: "",
     },
     description:
-      "My dissertation explores how methodologies effect a solo developer, and concluded that 'Lean Development' was most optimal.",
+      "My dissertation explored how methodologies effect a solo developer, and concluded that 'Lean Development' was most optimal.",
   },
   {
     title: "Appwrite Task Manager",

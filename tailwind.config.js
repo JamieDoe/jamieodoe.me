@@ -22,6 +22,10 @@ module.exports = {
         headers: "#2f2b3a",
         text: "#FFFFFF",
       },
+      screens: {
+        1360: "1360px",
+        "2xl": "1520px",
+      },
     },
   },
   plugins: [],

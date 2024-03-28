@@ -1,7 +1,7 @@
 import { portfolioData } from "../site-data/portfolioData";
 import { statisticsData } from "../site-data/statisticsData.json";
-import { aboutMeData } from "../site-data/aboutMeData.json";
-import { profileData } from "../site-data/profileData.json";
+import { aboutMeData, interestCategories } from "../site-data/aboutMeData.json";
+import { profileData, skillCategories } from "../site-data/profileData.json";
 import AboutMeCard from "./AboutMeCard";
 import PortfolioCard from "./PortfolioCard";
 import StatisticsCard from "./StatisticsCard";
@@ -18,7 +18,12 @@ export default function MainSection() {
           <StatisticsCard statistics={statisticsData} />
           <OtherProjectsCard />
         </div>
-        <AboutMeCard about={aboutMeData} skills={profileData.topSkills} />
+        <AboutMeCard
+          about={aboutMeData}
+          skillCategories={skillCategories}
+          interestCategories={interestCategories}
+          skills={profileData.topSkills}
+        />
       </div>
     </section>
   );
