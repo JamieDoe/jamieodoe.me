@@ -13,7 +13,7 @@ export default function ExperienceCard({ experiences }) {
                 </p>
                 <p className="text-xs">{duration}</p>
               </span>
-              <div className="flex gap-1 mt-2">
+              <div className="flex gap-[2px] mt-2 flex-wrap">
                 {skills.map((skill) => {
                   return (
                     <span

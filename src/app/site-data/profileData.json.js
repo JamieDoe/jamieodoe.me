@@ -1,3 +1,41 @@
+export const skillCategories = [
+  {
+    type: "codeLanguage",
+    styling: {
+      background: "bg-[#570007]",
+      border: "border-[#80000c]",
+    },
+  },
+  {
+    type: "framework",
+    styling: {
+      background: "bg-[#6d1858]",
+      border: "border-[#bf45a1]",
+    },
+  },
+  {
+    type: "technology",
+    styling: {
+      background: "bg-[#ae8105]",
+      border: "border-[#f4b60a]",
+    },
+  },
+  {
+    type: "databases",
+    styling: {
+      background: "bg-[#14747f]",
+      border: "border-[#1ebbcd]",
+    },
+  },
+  {
+    type: "other",
+    styling: {
+      background: "bg-[#6c8302]",
+      border: "border-[#a2c114]",
+    },
+  },
+];
+
 export const profileData = {
   profileBanner: {
     url: "https://rfs.org.uk/wp-content/uploads/2021/03/untitled-design-2.png",
@@ -14,83 +52,67 @@ export const profileData = {
   topSkills: [
     {
       label: "ReactJS",
-      color: "bg-[#570007]",
-      border: "border-[#80000c]",
+      category: "framework",
     },
     {
       label: "NextJs",
-      color: "bg-[#570007]",
-      border: "border-[#80000c]",
+      category: "framework",
     },
     {
       label: "AstroJs",
-      color: "bg-[#570007]",
-      border: "border-[#80000c]",
+      category: "codeLanguage",
     },
     {
       label: "Javascript",
-      color: "bg-[#570007]",
-      border: "border-[#80000c]",
+      category: "codeLanguage",
     },
     {
       label: "Functional Programming",
-      color: "bg-[#570007]",
-      border: "border-[#80000c]",
+      category: "other",
     },
     {
       label: "TailwindCSS",
-      color: "bg-[#570007]",
-      border: "border-[#80000c]",
+      category: "framework",
     },
     {
       label: "GraphQL",
-      color: "bg-[#570007]",
-      border: "border-[#80000c]",
+      category: "databases",
     },
     {
       label: "PostgreSQL",
-      color: "bg-[#570007]",
-      border: "border-[#80000c]",
+      category: "databases",
     },
     {
       label: "Git",
-      color: "bg-[#570007]",
-      border: "border-[#80000c]",
+      category: "technology",
     },
     {
       label: "GitHub",
-      color: "bg-[#570007]",
-      border: "border-[#80000c]",
+      category: "technology",
     },
     {
       label: "Frontend Development",
-      color: "bg-[#570007]",
-      border: "border-[#80000c]",
+      category: "other",
     },
     {
       label: "CMSs",
-      color: "bg-[#570007]",
-      border: "border-[#80000c]",
+      category: "technology",
     },
     {
       label: "UI/UX Design",
-      color: "bg-[#570007]",
-      border: "border-[#80000c]",
+      category: "other",
     },
     {
       label: "Teamwork",
-      color: "bg-[#570007]",
-      border: "border-[#80000c]",
+      category: "other",
     },
     {
       label: "SaaS Development",
-      color: "bg-[#570007]",
-      border: "border-[#80000c]",
+      category: "other",
     },
     {
       label: "Project Planning",
-      color: "bg-[#570007]",
-      border: "border-[#80000c]",
+      category: "other",
     },
   ],
   experience: [
@@ -98,13 +120,19 @@ export const profileData = {
       company: "Alliants",
       position: "Frontend Developer",
       duration: "03/10/23 - Present",
-      skills: ["skill", "skill", "skill", "skill", "skill"],
+      skills: ["ReactJs", "ReactJ", "Teamwork", "GraphQl", "TailwindCss"],
     },
     {
       company: "Web Design by Doe",
       position: "Chief Executive Officer | Frontend Developer",
       duration: "01/01/24 - Present",
-      skills: ["skill", "skill", "skill", "skill", "skill"],
+      skills: [
+        "Problem Solving",
+        "AstroJs",
+        "Project Management",
+        "GraphQl",
+        "TailwindCss",
+      ],
     },
   ],
   education: [

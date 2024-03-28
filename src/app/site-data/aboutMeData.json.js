@@ -3,66 +3,88 @@ import { FaPersonPraying, FaCamera } from "react-icons/fa6";
 import { FiWatch } from "react-icons/fi";
 import { CgGym } from "react-icons/cg";
 
+export const interestCategories = [
+  {
+    type: "selfDevelopment",
+    styling: {
+      background: "bg-[#6d1858]",
+      border: "border-[#bf45a1]",
+    },
+  },
+  {
+    type: "hobby",
+    styling: {
+      background: "bg-[#ae8105]",
+      border: "border-[#f4b60a]",
+    },
+  },
+  {
+    type: "technology",
+    styling: {
+      background: "bg-[#14747f]",
+      border: "border-[#1ebbcd]",
+    },
+  },
+  {
+    type: "finance",
+    styling: {
+      background: "bg-[#6c8302]",
+      border: "border-[#a2c114]",
+    },
+  },
+];
+
 export const aboutMeData = {
   fullName: "Jamie Oliver Doe",
   age: 23,
   description:
-    "I grew up in Feltham, London, and moved to Spain at 8. Moved back at 12 to the beautiful county of Hampshire. I studied game development at college, and software engineering at Portsmouth University. I'm now a Frontend React/Javascript Developer 👨‍💻",
+    "I grew up in London, and moved to Spain at 8. Moved back at 12 to the beautiful county of Hampshire. I studied game development at college, and software engineering at Portsmouth University. I'm now a Frontend React/Javascript Developer 👨‍💻",
 
   interests: [
     {
       label: "Reading",
       icon: <FaReadme className="w-full h-full" />,
-      color: "bg-[#570007]",
-      border: "border-[#80000c]",
+      category: "selfDevelopment",
     },
     {
       label: "Automobiles",
       icon: <FaCar className="w-full h-full" />,
-      color: "bg-[#0F5C2E]",
-      border: "border-[#1d9440]",
+      category: "hobby",
     },
     {
       label: "Machine Learning",
       icon: <FaCode className="w-full h-full" />,
-      color: "bg-[#003A75]",
-      border: "border-[#0a49b5]",
+      category: "technology",
     },
     {
       label: "Gym",
       icon: <CgGym className="w-full h-full" />,
-      color: "bg-[#E3963E]",
-      border: "border-[#F28C28]",
+      category: "selfDevelopment",
     },
     {
       label: "Horology",
       icon: <FiWatch className="w-full h-full" />,
-      color: "bg-[#570007]",
-      border: "border-[#80000c]",
+      category: "hobby",
     },
     {
       label: "Investing",
       icon: <FaChartLine className="w-full h-full" />,
-      color: "bg-[#570007]",
-      border: "border-[#80000c]",
+      category: "finance",
     },
     {
       label: "Coding",
       icon: <FaCode className="w-full h-full" />,
-      color: "bg-[#003A75]",
-      border: "border-[#0a49b5]",
+      category: "technology",
     },
     {
       label: "Personal Development",
       icon: <FaPersonPraying className="w-full h-full" />,
-      color: "bg-[#570007]",
-      border: "border-[#80000c]",
+      category: "selfDevelopment",
     },
     {
       label: "Photography",
       icon: <FaCamera className="w-full h-full" />,
-      color: "bg-[#570007]",
-      border: "border-[#80000c]",
+      category: "hobby",
     },
   ],
 };

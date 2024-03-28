@@ -1,4 +1,9 @@
-export default function AboutMeCard({ about, skills }) {
+export default function AboutMeCard({
+  about,
+  skillCategories,
+  interestCategories,
+  skills,
+}) {
   return (
     <div className="rounded-2xl overflow-hidden bg-secondary p-4 w-full h-full">
       <div className="max-w-[768px] flex flex-col gap-4">
@@ -17,38 +22,45 @@ export default function AboutMeCard({ about, skills }) {
             {about.description}
           </div>
         </div>
+
         <div className="flex flex-col gap-2">
-          <h3 className="text-xl font-semibold">My interests</h3>
+          <h3 className="text-xl font-semibold">My Skills</h3>
           <div className="flex gap-1 flex-wrap">
-            {about.interests.map(({ label, icon, color, border }) => {
-              return (
-                <span
-                  key={label}
-                  className={`flex gap-2 font-bold rounded px-[6px] text-sm border ${
-                    color ? color : ""
-                  } ${border ? border : ""}`}
-                >
-                  <span>{icon}</span>
-                  <p className="text-nowrap">{label}</p>
-                </span>
-              );
+            {skills.map(({ label, category }) => {
+              return skillCategories.map(({ type, styling }) => {
+                if (type !== category) {
+                  return null;
+                }
+                return (
+                  <span
+                    key={label}
+                    className={`flex gap-2  font-bold rounded px-[6px] text-sm border ${styling.background} ${styling.border}`}
+                  >
+                    <p className="text-nowrap">{label}</p>
+                  </span>
+                );
+              });
             })}
           </div>
         </div>
         <div className="flex flex-col gap-2">
-          <h3 className="text-xl font-semibold">My Skills</h3>
+          <h3 className="text-xl font-semibold">My interests</h3>
           <div className="flex gap-1 flex-wrap">
-            {skills.map(({ label, color, border, i }) => {
-              return (
-                <span
-                  key={label}
-                  className={`flex gap-2  font-bold rounded px-[6px] text-sm border ${
-                    color ? color : ""
-                  } ${border ? border : ""}`}
-                >
-                  <p className="text-nowrap">{label}</p>
-                </span>
-              );
+            {about.interests.map(({ label, icon, category }) => {
+              return interestCategories.map(({ type, styling }) => {
+                if (type !== category) {
+                  return null;
+                }
+                return (
+                  <span
+                    key={label}
+                    className={`flex gap-2 font-bold rounded px-[6px] text-sm border ${styling.background} ${styling.border}`}
+                  >
+                    <span>{icon}</span>
+                    <p className="text-nowrap">{label}</p>
+                  </span>
+                );
+              });
             })}
           </div>
         </div>

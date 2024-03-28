@@ -2,11 +2,15 @@
 
 import React from "react";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
+import getGithubStats from "../utils/getGithubStats";
 import { PieChart } from "./PieChart";
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 export default function StatisticsCard({ statistics }) {
+  const gitHubStatistics = getGithubStats();
+
+  console.log(gitHubStatistics);
   return (
     <div className="rounded-2xl overflow-hidden bg-secondary p-4 flex h-fit flex-col gap-4">
       <h2 className="text-2xl sm:text-3xl font-semibold">
