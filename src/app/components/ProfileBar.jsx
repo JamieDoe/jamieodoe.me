@@ -1,11 +1,8 @@
-import Image from "next/image";
-
 import { profileData } from "../site-data/profileData.json";
 import ProfileCard from "./ProfileCard";
 import TopSkillsCard from "./TopSkillsCard";
 import ExperienceCard from "./ExperienceCard";
 import EducationCard from "./EducationCard";
-import Divider from "./Divider";
 
 export default function ProfileBar() {
   return (
