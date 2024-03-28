@@ -38,12 +38,12 @@ export const skillCategories = [
 
 export const profileData = {
   profileBanner: {
-    url: "https://rfs.org.uk/wp-content/uploads/2021/03/untitled-design-2.png",
-    alt: "",
+    url: "https://res.cloudinary.com/dzcr4nekk/image/upload/f_auto,q_auto/lpfmp2xgzvhumhpokxuk",
+    alt: "Profile Banner",
   },
   profilePicture: {
-    url: "https://media.licdn.com/dms/image/D4E03AQFSAPImAPnZrg/profile-displayphoto-shrink_800_800/0/1681739934789?e=2147483647&v=beta&t=yc24BpQ2K0vo1REtvBpMKb4MYpGaLyEiCGfp-2SxYhE",
-    alt: "",
+    url: "https://res.cloudinary.com/dzcr4nekk/image/upload/f_auto,q_auto/hdx8dff6prhu3uyaqlcg",
+    alt: "Profile Picture",
   },
   openToWork: true,
   name: "Jamie Doe",

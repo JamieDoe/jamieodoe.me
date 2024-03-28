@@ -1,19 +1,19 @@
 export const otherProjectsData = [
   {
     label: "RAF20 Squadron",
-    description: "Developed their data management system",
+    description: "Built RAF 20 Squadron a data management schema.",
     href: "",
     image: {
-      url: "https://st4.depositphotos.com/1000128/21747/i/450/depositphotos_217479340-stock-photo-creative-abstract-php-web-design.jpg",
+      url: "https://res.cloudinary.com/dzcr4nekk/image/upload/f_auto,q_auto/tcgktsuevzl8kw5xu3so",
       alt: "",
     },
   },
   {
     label: "ChatGPT Bot",
-    description: "ChatGPT chat bot used to text OpenAi api",
+    description: "ChatGPT chat bot used to text OpenAi API.",
     href: "",
     image: {
-      url: "https://st4.depositphotos.com/1000128/21747/i/450/depositphotos_217479340-stock-photo-creative-abstract-php-web-design.jpg",
+      url: "https://res.cloudinary.com/dzcr4nekk/image/upload/f_auto,q_auto/qnotkwcopgglprewjaug",
       alt: "",
     },
   },
