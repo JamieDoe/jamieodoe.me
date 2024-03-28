@@ -10,7 +10,7 @@ import OtherProjectsCard from "./OtherProjectCard";
 
 export default function MainSection() {
   return (
-    <section className="px-14 flex flex-col gap-[12px]">
+    <section className="flex flex-col gap-[12px]">
       <TitleCard />
       <PortfolioCard portfolios={portfolioData} />
       <div className="main_grid">

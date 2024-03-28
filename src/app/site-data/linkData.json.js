@@ -14,7 +14,7 @@ export const linkData = {
     {
       resume: true,
       link: "/jamie-doe-resume.pdf",
-      target: null,
+      target: "_blank",
       icon: <RiFolderDownloadFill className="w-full h-full" />,
     },
     {

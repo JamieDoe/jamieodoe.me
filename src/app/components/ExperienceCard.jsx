@@ -1,7 +1,7 @@
 export default function ExperienceCard({ experiences }) {
   return (
     <div className="rounded-lg overflow-hidden bg-secondary p-4 flex flex-col ">
-      <h2 className="text-3xl font-bold">Experience</h2>
+      <h2 className="text-2xl sm:text-3xl  font-bold">Experience</h2>
       <div className="flex flex-col gap-2 mt-[6px]">
         {experiences.map(({ company, position, duration, skills }) => {
           return (

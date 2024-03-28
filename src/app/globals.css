@@ -34,17 +34,15 @@ body {
 
 .page_grid {
   max-width: 1560px;
-  display: grid;
-  grid-template-columns: 1.5fr 5fr 60px;
-  grid-template-rows: 1fr;
-  grid-column-gap: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .portfolio_grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-gap: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .portfolio_card_grid {
@@ -54,15 +52,38 @@ body {
 }
 
 .main_grid {
-  display: grid;
-  grid-template-columns: 1.5fr 2fr;
-  grid-template-rows: 1fr;
+  display: flex;
+  flex-direction: column;
   gap: 12px;
 }
 
 .main_grid_left {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr;
   gap: 12px;
+}
+
+@media (min-width: 1360px) {
+  .page_grid {
+    display: grid;
+    grid-template-columns: 1.5fr 5fr 75px;
+    grid-template-rows: 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .portfolio_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1520px) {
+  .main_grid {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    grid-template-rows: 1fr;
+  }
 }
